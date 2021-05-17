@@ -15,6 +15,9 @@
 		0B9AC9AA2651717C00C71CB8 /* ToDo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0B9AC9A82651717C00C71CB8 /* ToDo.xcdatamodeld */; };
 		0B9AC9B52651717C00C71CB8 /* ToDoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9AC9B42651717C00C71CB8 /* ToDoTests.swift */; };
 		0B9AC9C02651717C00C71CB8 /* ToDoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9AC9BF2651717C00C71CB8 /* ToDoUITests.swift */; };
+		0B9AC9CE2651792A00C71CB8 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9AC9CD2651792A00C71CB8 /* CircleImage.swift */; };
+		0B9AC9D0265179E700C71CB8 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B9AC9CF265179E700C71CB8 /* 1.jpg */; };
+		0BA4DD1C2651F35C0001B66F /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA4DD1B2651F35C0001B66F /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,7 @@
 
 /* Begin PBXFileReference section */
 		0B9AC99A2651717A00C71CB8 /* ToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B9AC99D2651717A00C71CB8 /* ToDoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoApp.swift; sourceTree = "<group>"; };
+		0B9AC99D2651717A00C71CB8 /* ToDoApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoApp.swift; sourceTree = "<group>"; };
 		0B9AC99F2651717A00C71CB8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0B9AC9A12651717C00C71CB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B9AC9A42651717C00C71CB8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -49,6 +52,9 @@
 		0B9AC9BB2651717C00C71CB8 /* ToDoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B9AC9BF2651717C00C71CB8 /* ToDoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoUITests.swift; sourceTree = "<group>"; };
 		0B9AC9C12651717C00C71CB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B9AC9CD2651792A00C71CB8 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		0B9AC9CF265179E700C71CB8 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1.jpg; path = ../../../Pictures/1.jpg; sourceTree = "<group>"; };
+		0BA4DD1B2651F35C0001B66F /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +108,13 @@
 				0B9AC99D2651717A00C71CB8 /* ToDoApp.swift */,
 				0B9AC99F2651717A00C71CB8 /* ContentView.swift */,
 				0B9AC9A12651717C00C71CB8 /* Assets.xcassets */,
+				0B9AC9CF265179E700C71CB8 /* 1.jpg */,
 				0B9AC9A62651717C00C71CB8 /* Persistence.swift */,
 				0B9AC9AB2651717C00C71CB8 /* Info.plist */,
 				0B9AC9A82651717C00C71CB8 /* ToDo.xcdatamodeld */,
 				0B9AC9A32651717C00C71CB8 /* Preview Content */,
+				0B9AC9CD2651792A00C71CB8 /* CircleImage.swift */,
+				0BA4DD1B2651F35C0001B66F /* MapView.swift */,
 			);
 			path = ToDo;
 			sourceTree = "<group>";
@@ -239,6 +248,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B9AC9D0265179E700C71CB8 /* 1.jpg in Resources */,
 				0B9AC9A52651717C00C71CB8 /* Preview Assets.xcassets in Resources */,
 				0B9AC9A22651717C00C71CB8 /* Assets.xcassets in Resources */,
 			);
@@ -266,9 +276,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B9AC9A72651717C00C71CB8 /* Persistence.swift in Sources */,
+				0BA4DD1C2651F35C0001B66F /* MapView.swift in Sources */,
 				0B9AC9A02651717A00C71CB8 /* ContentView.swift in Sources */,
 				0B9AC99E2651717A00C71CB8 /* ToDoApp.swift in Sources */,
 				0B9AC9AA2651717C00C71CB8 /* ToDo.xcdatamodeld in Sources */,
+				0B9AC9CE2651792A00C71CB8 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
